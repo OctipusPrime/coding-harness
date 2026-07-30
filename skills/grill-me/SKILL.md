@@ -1,10 +1,7 @@
 ---
 name: grill-me
-description: Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+description: A relentless interview to sharpen a plan or design.
+disable-model-invocation: true
 ---
 
-Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one.
-
-If a question can be answered by exploring the codebase, explore the codebase instead.
-
-Use the question answering format that plan-mode has. 
+Run a `/grilling` session.
